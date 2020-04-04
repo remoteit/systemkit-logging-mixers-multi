@@ -8,8 +8,8 @@ type multiLogger struct {
 	loggers []logging.Logger
 }
 
-// NewMulti -
-func NewMulti(loggers []logging.Logger) logging.Logger {
+// NewMultiLogger -
+func NewMultiLogger(loggers []logging.Logger) logging.Logger {
 	return &multiLogger{
 		loggers: loggers,
 	}
