@@ -5,11 +5,11 @@ import (
 )
 
 type multiLogger struct {
-	loggers []logging.Logger
+	loggers []logging.CoreLogger
 }
 
 // NewMultiLogger -
-func NewMultiLogger(loggers []logging.Logger) logging.Logger {
+func NewMultiLogger(loggers []logging.CoreLogger) logging.CoreLogger {
 	return &multiLogger{
 		loggers: loggers,
 	}
