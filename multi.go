@@ -1,7 +1,7 @@
 package mixers
 
 import (
-	logging "github.com/codemodify/systemkit-logging"
+	logging "github.com/remoteit/systemkit-logging"
 )
 
 type multiLogger struct {
